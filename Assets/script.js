@@ -1,24 +1,31 @@
 var currentHour = moment().hours();
-console.log(currentHour);
+var timer = $('.time-block');
 
 
 // Add  today's date using Moment.js //
 $("#currentDay").text(moment().format("dddd, MMMM Do "));
 
 // Relationship of the row color with respect to current time //
-function colorChange(){ 
-    var guessHour = parseInt($(this).attr('id'))
-    console.log(guessHour);
 
+function colorChange() { 
+    var currentHour = moment().hours();
+    
+
+
+timer.each(function() { 
+    var guessHour = parseInt($(this).attr('id'))
+    
     if (currentHour === guessHour){
-    $("col-sm-10").addClass("present");
+    $(this).children(".col-sm-10").addClass("present")
 }
-else if (currentHour < guessHour){
-    $("col-sm-10").addClass("future");
+else if (currentHour > guessHour){
+    $(this).children(".col-sm-10").addClass("past")
 }
     else {
-        $("col-sm-10").addClass("past");
-    }
-
+        $(this).children(".col-sm-10").addClass("future")
 }
+})
+}
+
 colorChange();
+
