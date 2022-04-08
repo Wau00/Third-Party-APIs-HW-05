@@ -21,3 +21,4 @@ else if (currentHour < guessHour){
     }
 
 }
+colorChange();
