@@ -1,7 +1,7 @@
 # Third-Party-APIs-HW-05
 
 # Description
-Third-party APIs are a set of rules that facilitate communication between applications in order to exchange information or data. With third-party APIs, you can simplify and facilitate the process of developing a web page and save a lot of time. In this project, we tested third-party APIs to run a personal scheduler with interactive functions that allow the user to record their day-to-day plan.  
+Third-party APIs are a set of rules that facilitate communication between applications to exchange information or data. With third-party APIs, you can simplify the process facilitating the develop of a web page and saving a lot of time. In this project, we tested third-party APIs to run a personal scheduler with interactive functions that allow the user to record their day-to-day plan.  
 
 # Table of Content
 
