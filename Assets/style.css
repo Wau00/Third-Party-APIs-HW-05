@@ -2,13 +2,16 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     line-height: 1;
+    background-color: #212933;
+    
+
   }
   
   textarea{
     background: transparent;
     border: none;
+    color: #d3d3d3;
     resize: none;
-    color: #000000;
     border-left: 1px solid black;
     padding: 10px;
   }
@@ -16,7 +19,8 @@ body {
   .jumbotron {
     text-align: center;
     background-color: transparent;
-    color: black;
+    color: #d3d3d3;
+    text-shadow: 1px 1px #E3A07E;
     border-radius: 0;
     border-bottom: 10px solid black;
   }
@@ -37,32 +41,36 @@ body {
   }
   
   .hour {
-    background-color: #ffff;
+    background-color: #73A5C6;
     color: #000000;
     border-top: 1px dashed #000000;
     border-radius: 6px;
+    
   }
   
   .past {
     background-color: #d3d3d3;
     color: black;
+    text-shadow: 2px 2px #ffffff;
   }
   
   .present {
-    background-color: #ff6961;
+    background-color: #62313E;
     color: white;
+    text-shadow: 2px 2px #212933;
   }
   
   .future {
-    background-color: #77dd77;
-    color: black;
+    background-color: #83AF9B;
+    color: #ffffff;
+    text-shadow: 2px 2px #212933;
   }
   
   .saveBtn {
     border-left: 1px solid black;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
-    background-color: #06AED5;
+    background-color: #E3A07E;
     color: white;
   }
   
@@ -71,4 +79,15 @@ body {
     transition: all .3s ease-in-out;
   }
   
- 
+ .col-sm-1{
+  justify-content: center;
+  align-items: center;
+   color: #fff;
+   text-shadow: 2px 2px #212933;
+   transition: transform 300ms; 
+ }
+
+ .col-sm-1:hover{
+   transform: translate(2px);
+    opacity: 0.80;
+ }

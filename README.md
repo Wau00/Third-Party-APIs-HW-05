@@ -17,7 +17,8 @@ As a user, feel free to interact with the multiple buttons, animations, transiti
 
 # Webpage Preview
 
-![WebpagePreview](https://user-images.githubusercontent.com/99919050/162380880-d4e34e65-d29b-4bd9-a5dd-8ec068c41f82.png)
+![Screen Shot 2022-04-08 at 1 46 51 AM](https://user-images.githubusercontent.com/99919050/162400335-be613799-7889-44a8-a5ad-44d6384f11c3.png)
+
 
 # Technologies
 
