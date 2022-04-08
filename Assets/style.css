@@ -33,13 +33,14 @@ body {
   .row {
     white-space: pre-wrap;
     height: 80px;
-    border-top: 1px solid white;;
+    border-top: 1px solid rgb(208, 0, 0);;
   }
   
   .hour {
-    background-color: #ffffff;
+    background-color: #ffff;
     color: #000000;
     border-top: 1px dashed #000000;
+    border-radius: 6px;
   }
   
   .past {
